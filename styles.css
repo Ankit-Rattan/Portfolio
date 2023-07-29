@@ -1,11 +1,10 @@
-/* Reset styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Global styles */
   body {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -13,11 +12,15 @@
     color: #333;
 
   }
-  
+  nav{
+    background-color: rgba(16, 43, 71, 0.852);
+  }
+
   .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    
   }
   
   .section-title {
@@ -288,7 +291,7 @@
 
     position: sticky;
     top:5%;
-    z-index: 998;
+    z-index: -1;
   }
   .code-img{
     max-height: 150px;
