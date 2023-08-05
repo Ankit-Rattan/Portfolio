@@ -237,9 +237,9 @@
     transition: transform 0.3s ease;
   }
   
-  .about-section:hover .profile-image {
+  /* .about-section:hover .profile-image {
     transform: rotate(360deg);
-  }
+  } */
   
   /* Skills Section */
   .skills-section {
