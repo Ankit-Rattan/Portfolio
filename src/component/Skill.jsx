@@ -29,7 +29,7 @@ function Skill(){
                 <h3><b>Development</b></h3>
                 <p>
 
-                    HTML <br/> CSS <br/> Bootstrap Framework <br/> Javascript <br/> JQuery
+                    HTML <br/> CSS <br/> Bootstrap Framework <br/> Javascript <br/> JQuery <br/> ReactJS 
                 </p>
                 
             </div>
