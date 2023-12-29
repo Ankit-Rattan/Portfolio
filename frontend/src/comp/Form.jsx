@@ -12,7 +12,7 @@ const Form = () => {
     e.preventDefault();
 
     try {
-      await axios.post('https://portfolio-ankit-rattan.vercel.app/submit', values); // Use the correct endpoint
+      await axios.post('http://localhost:3000/submit', values);
       alert('Form submitted successfully!');
     } catch (err) {
       console.error(err);
@@ -25,12 +25,12 @@ const Form = () => {
   };
 
   return (
-    <div className="bg-gray-900 p-5 flex items-center justify-center">
+    <div className="bg-gray-900 min-h-screen flex items-center justify-center">
       <form
-        className="bg-black p-4 rounded shadow-2xl hover:shadow-cyan-300 max-w-md w-full duration-1000"
+        className="bg-white p-8 rounded shadow-md max-w-md w-full"
         onSubmit={handleSubmit}
       >
-        <h2 className="text-2xl mb-4 text-sky-300 font-bold">Contact Me</h2>
+        <h2 className="text-2xl mb-4 text-gray-800 font-bold">Contact Us</h2>
         <div className="mb-4">
           <input
             type="text"
