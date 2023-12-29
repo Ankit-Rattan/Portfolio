@@ -12,7 +12,7 @@ const Form = () => {
     e.preventDefault();
 
     try {
-      await axios.post('http://localhost:3001/submit', values); // Use the correct endpoint
+      await axios.post('https://portfolio-ankit-rattan.vercel.app/', values); // Use the correct endpoint
       alert('Form submitted successfully!');
     } catch (err) {
       console.error(err);
