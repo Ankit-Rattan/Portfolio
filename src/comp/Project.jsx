@@ -19,13 +19,13 @@ const Project = () => {
                     className="opacity-0 transition duration-1000   p-8 shadow-sm shadow-slate-100"
                     style={{ opacity: isVisible ? 7 : 0 }}
                 >
-                    <h1 className="text-center text-amber-100 mt-5 text-3xl font-semibold font-mono">Projects</h1>
+                    <h1 className="text-center text-amber-100 mt-5 text-4xl font-semibold font-mono">Projects</h1>
                 <div className='flex flex-wrap justify-around'>
 
 
 
                     <div className="mt-8 w-[30rem]">
-                        <h1 className="text-xl font-semibold text-red-300">ChatApp</h1>
+                        <h1 className="text-2xl font-semibold text-red-300">ChatApp</h1>
                         <p className="mt-2 text-lime-200">MERN stack Project</p>
                         <p className="mt-2 text-cyan-200">This ChatApp provides one to one chatting plus group chatting.</p>
                         <p className="mt-2 text-white">Tech Stack : Vite+Rect Tailwind CSS MongoAtlas Express Node BCrypt Socket</p>
@@ -33,14 +33,14 @@ const Project = () => {
                     </div>
 
                     <div className="mt-8 w-[30rem]">
-                        <h1 className="text-xl font-semibold text-white text-red-300">InfoLevel</h1>
+                        <h1 className="text-2xl font-semibold text-red-300">InfoLevel</h1>
                         <p className="mt-2 text-lime-200">React App</p>
                         <p className="mt-2 text-cyan-200">InfoLevel is general web-app for storing contact details like name and email, collecting real-time data.</p>
                         <p className="mt-2 text-white">Tech Stack : Vite+React Tailwind CSS Firebase</p>
                         <a href="https://github.com/Ankit-Rattan/InfoLevel_React" className="mt-4 block w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Github Repository</a>
                     </div>
                     <div className="mt-8 w-[30rem]">
-                        <h1 className="text-xl font-semibold text-white text-red-300">SevaShakti</h1>
+                        <h1 className="text-2xl font-semibold text-red-300">SevaShakti</h1>
                         <p className="mt-2 text-lime-200">First Hackathon : EQ Hacks</p>
                         <p className="mt-2 text-lime-200">Contributor : Ankit Rattan, Himanshu Gupta, Anshu Kumar</p>
                         <p className="mt-2 text-cyan-200">Website based on the given them "Social Goods" - SevaShakti provides the accomodation and other needs via different services and options.</p>
@@ -49,7 +49,7 @@ const Project = () => {
 
                     </div>
                     <div className="mt-8 w-[30rem]">
-                        <h1 className="text-xl font-semibold text-white text-red-300">Drum Kit</h1>
+                        <h1 className="text-2xl font-semibold text-red-300">Drum Kit</h1>
                         <p className="mt-2 text-lime-200">JS Learning Project </p>
                         <p className="mt-2 text-cyan-200">A general drum kit can be operated using keyboard</p>
                         <p className="mt-2 text-white">Tech Stack : Javascript </p>
