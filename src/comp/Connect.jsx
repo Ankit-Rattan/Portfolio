@@ -21,7 +21,7 @@ const Connect = () => {
     return (
         <div className="mt-16">
           <div className="container mx-auto px-4 py-8 ">
-            <h1 className="text-neon text-2xl font-extralight mb-4 font-mono m-3 text-center">
+            <h1 className="text-white text-2xl font-extralight mb-4 font-mono m-3 text-center">
               <span ref={typedRef}></span>
             </h1>
             <div className='flex flex-wrap justify-around items-center'>

@@ -17,7 +17,7 @@ const Project = () => {
             <div className=" m-5 i justify-center">
                 <motion.div
                     className="opacity-0 transition duration-1000   p-8 shadow-sm shadow-slate-100"
-                    style={{ opacity: isVisible ? 5 : 0 }}
+                    style={{ opacity: isVisible ? 7 : 0 }}
                 >
                     <h1 className="text-center text-amber-100 mt-5 text-3xl font-semibold font-mono">Projects</h1>
                 <div className='flex flex-wrap justify-around'>
