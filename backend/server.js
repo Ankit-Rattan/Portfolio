@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors(
  {
-  origin:["https://portfolio-ankit-nu.vercel.app/"],
+  origin:["https://portfolio-ankit-nu.vercel.app"],
   method:["POST", "GET"],
   credentials:true
  }
