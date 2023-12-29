@@ -19,6 +19,10 @@ db.once('open', () => {
  console.log('Connected to MongoDB');
 });
 
+app.get("/", (req, res) =>{
+    res.json("Hello");
+})
+
 app.post('/submit', async (req, res) => {
     const contactMessage = new ContactMessage({
         email: req.body.email,
