@@ -35,6 +35,7 @@ app.post('/submit', async (req, res) => {
     }
 });
 
-app.listen(3001, () => {
- console.log('Server is running on port 3001');
+const PORT = process.env.PORT || 3000; // Use the port provided by Glitch or default to 3000
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
