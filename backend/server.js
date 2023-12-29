@@ -7,13 +7,7 @@ const ContactMessage = require('./ContactMessage');
 const app = express();
 
 app.use(bodyParser.json());
-app.use(cors(
- {
-  origin:["https://portfolio-ankit-nu.vercel.app"],
-  method:["POST", "GET"],
-  credentials:true
- }
-));
+app.use(cors());
 
 const connectionString = 'mongodb+srv://rattanankit2004:clicknik@contactmessages.gwzotrv.mongodb.net/?retryWrites=true&w=majority';
 
@@ -45,7 +39,8 @@ app.post('/submit', async (req, res) => {
     }
 });
 
-const PORT = process.env.PORT || 3000; // Use the port provided by Glitch or default to 3000
+
+const PORT = process.env.PORT || 3000; // Use the port provided by  or default to 3000
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
