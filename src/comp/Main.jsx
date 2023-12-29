@@ -6,6 +6,8 @@ import About from './About'
 import Project from './Project'
 import Exp from './Exp'
 import Connect from './Connect'
+import Skills from './Skills'
+import Form from './Form'
 
 const Main = () => {
   return (
@@ -15,7 +17,9 @@ const Main = () => {
         <About/>
         <SecTwo/>
         <Project/>
+        <Skills/>
         <Connect/>
+        <Form/>
         
         {/* <Exp/> */}
 

@@ -1,0 +1,40 @@
+const express = require('express');
+const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const ContactMessage = require('./ContactMessage');
+
+const app = express();
+
+app.use(bodyParser.json());
+app.use(cors());
+
+const connectionString = 'mongodb+srv://rattanankit2004:clicknik@contactmessages.gwzotrv.mongodb.net/?retryWrites=true&w=majority';
+
+mongoose.connect(connectionString, { useNewUrlParser: true, useUnifiedTopology: true });
+
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', () => {
+ console.log('Connected to MongoDB');
+});
+
+app.post('/submit', async (req, res) => {
+    const contactMessage = new ContactMessage({
+        email: req.body.email,
+        name: req.body.name,
+        message: req.body.message,
+    });
+
+    try {
+        await contactMessage.save();
+        res.status(201).send(contactMessage);
+    } catch (error) {
+        console.error(error);  // Log the error to the console
+        res.status(400).send(error);
+    }
+});
+
+app.listen(3001, () => {
+ console.log('Server is running on port 3001');
+});
