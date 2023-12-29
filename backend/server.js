@@ -7,7 +7,13 @@ const ContactMessage = require('./ContactMessage');
 const app = express();
 
 app.use(bodyParser.json());
-app.use(cors());
+app.use(cors(
+ {
+  origin:["https://portfolio-ankit-nu.vercel.app/"],
+  method:["POST", "GET"],
+  credentials:true
+ }
+));
 
 const connectionString = 'mongodb+srv://rattanankit2004:clicknik@contactmessages.gwzotrv.mongodb.net/?retryWrites=true&w=majority';
 
