@@ -25,12 +25,12 @@ const Form = () => {
   };
 
   return (
-    <div className="bg-gray-900 min-h-screen flex items-center justify-center">
+    <div className="bg-gray-900 p-[5rem] flex items-center justify-center">
       <form
-        className="bg-white p-8 rounded shadow-md max-w-md w-full"
+        className="p-8 rounded  max-w-md w-full shadow-lg hover:shadow-sky-400 duration-1000"
         onSubmit={handleSubmit}
       >
-        <h2 className="text-2xl mb-4 text-gray-800 font-bold">Contact Us</h2>
+        <h2 className="text-2xl mb-4 text-purple-200 font-bold">Contact Me</h2>
         <div className="mb-4">
           <input
             type="text"
