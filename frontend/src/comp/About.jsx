@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react'
 import { motion, useTransform, useViewportScroll } from 'framer-motion'
-import Pic from './images/pic.jpeg'
+import Pic from './images/pic.jpg'
 
 const About = () => {
   const [visible, setVisible] = useState(false);
@@ -13,7 +13,7 @@ const About = () => {
      return () => clearTimeout(timer);
   }, []);
   return (
-    <div className='p-[1rem]'>
+    <div className='p-[.7rem]'>
     {visible &&
       <motion.div initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -47,7 +47,7 @@ const About = () => {
             </div>
           </div>
           <div className='items-center'>
-            <img className='h-[25rem] rounded-r-full ' src={Pic} />
+            <img className='h-[30rem] rounded-r-full' src={Pic} />
 
           </div>
         </div>
