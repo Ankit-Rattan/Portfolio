@@ -13,7 +13,7 @@ const About = () => {
      return () => clearTimeout(timer);
   }, []);
   return (
-    <>
+    <div className='p-[1rem]'>
     {visible &&
       <motion.div initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -47,13 +47,13 @@ const About = () => {
             </div>
           </div>
           <div className='items-center'>
-            <img className='h-[25rem]  ' src={Pic} />
+            <img className='h-[25rem] rounded-r-full ' src={Pic} />
 
           </div>
         </div>
       </motion.div>
     }
-    </>
+    </div>
   )
 }
 
