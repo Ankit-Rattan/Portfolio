@@ -27,7 +27,7 @@ const Project = () => {
                     <div className="mt-8 w-[30rem]">
                         <h1 className="text-2xl font-semibold text-red-300">ChatApp</h1>
                         <p className="mt-2 text-lime-200">MERN stack Project</p>
-                        <p className="mt-2 text-cyan-200">This ChatApp provides one to one chatting plus group chatting.</p>
+                        <p className="mt-2 text-cyan-200">The common platform ChatApp .</p>
                         <p className="mt-2 text-white">Tech Stack : Vite+Rect Tailwind CSS MongoAtlas Express Node BCrypt Socket</p>
                         <a href="https://github.com/Ankit-Rattan/Chat_App-beta" className="mt-4 block w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Github Repository</a>
                     </div>
