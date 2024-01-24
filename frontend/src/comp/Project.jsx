@@ -25,6 +25,15 @@ const Project = () => {
 
 
                     <div className="mt-8 w-[30rem]">
+                        <h1 className="text-2xl font-semibold text-red-300">CBC</h1>
+                        <p className="mt-2 text-lime-200">First Hackathon : CrackDevs Hackathon</p>
+                        <p className="mt-2 text-lime-200">Contributor : Ankit Rattan, Himanshu Gupta</p>
+                        <p className="mt-2 text-cyan-200">CBC: Create By Creators is a platform that provides you with a combination of two cutting-edge scopes together.</p>
+                        <p className="mt-2 text-white">Tech Stack : ReactJS, Socketio, MongoDB, Express, TailwindCSS </p>
+                        <a href="https://github.com/Ankit-Rattan/EQ-Hacks-Submission" className="mt-4 block w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Github Repository</a>
+
+                    </div>
+                    <div className="mt-8 w-[30rem]">
                         <h1 className="text-2xl font-semibold text-red-300">ThoughtBox</h1>
                         <p className="mt-2 text-lime-200">MERN+Socket Project</p>
                         <p className="mt-2 text-cyan-200">It is an open chat app for sharing your knowledge and thoughts with others, where you can also comment and any other person on their thoughts.</p>
@@ -38,15 +47,6 @@ const Project = () => {
                         <p className="mt-2 text-cyan-200">InfoLevel is general web-app for storing contact details like name and email, collecting real-time data.</p>
                         <p className="mt-2 text-white">Tech Stack : Vite+React Tailwind CSS Firebase</p>
                         <a href="https://github.com/Ankit-Rattan/InfoLevel_React" className="mt-4 block w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Github Repository</a>
-                    </div>
-                    <div className="mt-8 w-[30rem]">
-                        <h1 className="text-2xl font-semibold text-red-300">SevaShakti</h1>
-                        <p className="mt-2 text-lime-200">First Hackathon : EQ Hacks</p>
-                        <p className="mt-2 text-lime-200">Contributor : Ankit Rattan, Himanshu Gupta, Anshu Kumar</p>
-                        <p className="mt-2 text-cyan-200">Website based on the given them "Social Goods" - SevaShakti provides the accomodation and other needs via different services and options.</p>
-                        <p className="mt-2 text-white">Tech Stack : HTML CSS JS SCSS </p>
-                        <a href="https://github.com/Ankit-Rattan/EQ-Hacks-Submission" className="mt-4 block w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Github Repository</a>
-
                     </div>
                     <div className="mt-8 w-[30rem]">
                         <h1 className="text-2xl font-semibold text-red-300">Drum Kit</h1>
