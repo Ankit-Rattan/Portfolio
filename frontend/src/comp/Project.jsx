@@ -26,8 +26,8 @@ const Project = () => {
 
                     <div className="mt-8 w-[30rem]">
                         <h1 className="text-2xl font-semibold text-red-300">CBC</h1>
-                        <p className="mt-2 text-lime-200">First Hackathon : CrackDevs Hackathon</p>
-                        <p className="mt-2 text-lime-200">Contributor : Ankit Rattan, Himanshu Gupta</p>
+                        <p className="mt-2 text-lime-200">MERN + Socketio Project</p>
+                        <p className="mt-2 text-lime-200">Ankit Rattan</p>
                         <p className="mt-2 text-cyan-200">CBC: Create By Creators is a platform that provides you with a combination of two cutting-edge scopes together.</p>
                         <p className="mt-2 text-white">Tech Stack : ReactJS, Socketio, MongoDB, Express, TailwindCSS </p>
                         <a href="https://github.com/Ankit-Rattan/EQ-Hacks-Submission" className="mt-4 block w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Github Repository</a>
