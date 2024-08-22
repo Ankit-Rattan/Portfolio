@@ -25,16 +25,13 @@ const SecTwo = () => {
         </h1>
         <div className='flex flex-wrap justify-around items-center'>
         <div className='m-2'>
-          <a href='https://leetcode.com/rattanankit2004/' className='text-orange-300 text-2xl font-mono mx-4 transition duration-500 ease-in-out transform hover:scale-110  hover:text-orange-400 '>LeetCode<br/><p className='text-xl text-orange-200'>300+ Ques</p> </a>
-        </div>
-        <div className='m-2'>
-          <a href='https://www.codechef.com/users/ankitrattan' className='text-orange-300 text-2xl font-mono mx-4 transition duration-500 ease-in-out transform hover:scale-110 hover:text-orange-400'>Codechef <br/><p className='text-xl text-orange-200'>Max. 1457</p></a>
+          <a href='https://leetcode.com/rattanankit2004/' className='text-orange-300 text-2xl font-mono mx-4 transition duration-500 ease-in-out transform hover:scale-110  hover:text-orange-400 '>LeetCode<br/><p className='text-xl text-orange-200'>350+ Ques</p> </a>
         </div>
         <div className='m-2'>
           <a href='https://github.com/Ankit-Rattan' className='text-orange-300 text-2xl font-mono mx-4 transition duration-500 ease-in-out transform hover:scale-110 hover:text-orange-400'>GitHub <br/>  .👨‍💻.</a>
         </div>
         <div className='m-2'>
-          <a href='https://auth.geeksforgeeks.org/user/rattananul1v' className='text-orange-300 text-2xl font-mono mx-4 transition duration-500 ease-in-out transform hover:scale-110 hover:text-orange-400'>GfG<br/><p className='text-xl text-orange-200'>#19</p></a>
+          <a href='https://auth.geeksforgeeks.org/user/rattananul1v' className='text-orange-300 text-2xl font-mono mx-4 transition duration-500 ease-in-out transform hover:scale-110 hover:text-orange-400'>GfG<br/><p className='text-xl text-orange-200'>⚙️</p></a>
         </div>
         </div>
 
