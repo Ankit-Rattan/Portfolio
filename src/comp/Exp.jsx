@@ -10,7 +10,7 @@ const experiences = [
     period: 'Jun 2024 – Feb 2025 • 9 mos',
     location: 'Delhi, India',
     description:
-      'Developed and maintained front-end features using React.js and TailwindCSS and Firebasse. Integrated RESTful APIs and improved user experience.',
+      'Developed and maintained front-end features using React.js and TailwindCSS and Firebasse. Integrated new unique flows and features and improved user experience.',
   }, 
   {
     org: 'Social (Formerly Script Foundation)',
