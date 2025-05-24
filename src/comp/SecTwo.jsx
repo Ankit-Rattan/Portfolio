@@ -25,12 +25,22 @@ const SecTwo = () => {
         </h1>
         <div className='flex flex-wrap justify-around items-center'>
         <div className='m-2'>
+<<<<<<< HEAD:src/comp/SecTwo.jsx
           <a href='https://leetcode.com/rattanankit2004/' className='text-orange-300 text-2xl font-mono mx-4 transition duration-500 ease-in-out transform hover:scale-110  hover:text-orange-400 '>LeetCode<br/><p className='text-xl text-orange-200'>650+ Ques</p> </a>
+=======
+          <a href='https://leetcode.com/rattanankit2004/' className='text-orange-300 text-2xl font-mono mx-4 transition duration-500 ease-in-out transform hover:scale-110  hover:text-orange-400 '>LeetCode<br/><p className='text-xl text-orange-200'>350+ Ques</p> </a>
+>>>>>>> 72f751d47c2e2f008691a7ef64e15d4761298896:frontend/src/comp/SecTwo.jsx
         </div>
         <div className='m-2'>
           <a href='https://github.com/Ankit-Rattan' className='text-orange-300 text-2xl font-mono mx-4 transition duration-500 ease-in-out transform hover:scale-110 hover:text-orange-400'>GitHub <br/>  .👨‍💻.</a>
         </div>
+<<<<<<< HEAD:src/comp/SecTwo.jsx
 
+=======
+        <div className='m-2'>
+          <a href='https://auth.geeksforgeeks.org/user/rattananul1v' className='text-orange-300 text-2xl font-mono mx-4 transition duration-500 ease-in-out transform hover:scale-110 hover:text-orange-400'>GfG<br/><p className='text-xl text-orange-200'>⚙️</p></a>
+        </div>
+>>>>>>> 72f751d47c2e2f008691a7ef64e15d4761298896:frontend/src/comp/SecTwo.jsx
         </div>
 
       </div>
