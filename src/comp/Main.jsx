@@ -15,13 +15,13 @@ const Main = () => {
         <Nav/>
         <SecOne/>
         <About/>
-        <SecTwo/>
+        {/* <SecTwo/> */}
+        <Exp/>
         <Project/>
         <Skills/>
         <Connect/>
         <Form/>
         
-        {/* <Exp/> */}
 
 
     </div>
