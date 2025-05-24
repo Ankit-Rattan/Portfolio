@@ -1,7 +1,6 @@
 import React from 'react'
 import Nav from './Nav'
 import SecOne from './SecOne'
-import SecTwo from './SecTwo'
 import About from './About'
 import Project from './Project'
 import Exp from './Exp'
@@ -15,7 +14,6 @@ const Main = () => {
         <Nav/>
         <SecOne/>
         <About/>
-        {/* <SecTwo/> */}
         <Exp/>
         <Project/>
         <Skills/>
