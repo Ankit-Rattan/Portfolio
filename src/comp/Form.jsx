@@ -8,12 +8,15 @@ const Form = () => {
     message: '',
   });
 
+  const [loading, setLoading] = useState(false); // 🌀 Loading state
+
   const handleChange = (e) => {
     setValues({ ...values, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true); // ⏳ Start loading
 
     // 1️⃣ Send to Ankit
     emailjs.send(
@@ -46,7 +49,8 @@ const Form = () => {
     .catch((error) => {
       console.error('FAILED...', error);
       alert('Failed to send message. Please try again.');
-    });
+    })
+    .finally(() => setLoading(false)); // ✅ Stop loading
   };
 
   return (
@@ -94,9 +98,37 @@ const Form = () => {
 
         <button
           type="submit"
-          className="w-full bg-blue-500 text-white p-3 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
+          disabled={loading}
+          className={`w-full flex justify-center items-center gap-2 bg-blue-500 text-white p-3 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300 ${
+            loading ? 'opacity-70 cursor-not-allowed' : ''
+          }`}
         >
-          Submit
+          {loading ? (
+            <>
+              <svg
+                className="animate-spin h-5 w-5 text-white"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  className="opacity-25"
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  strokeWidth="4"
+                  fill="none"
+                />
+                <path
+                  className="opacity-75"
+                  fill="currentColor"
+                  d="M4 12a8 8 0 018-8v8H4z"
+                />
+              </svg>
+              Sending...
+            </>
+          ) : (
+            'Submit'
+          )}
         </button>
       </form>
     </div>
