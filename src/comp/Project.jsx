@@ -2,44 +2,75 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const projects = [
+  // {
+  //   title: 'SUKOON',
+  //   subtitle: 'Addressing the growing mental health crisis in India',
+  //   description:
+  //     'A mental wellness platform designed to make mental health support accessible, private, and personalized. Team ApexCoders @HackCBS 7.0 + IIIT Delhi Top-50.',
+  //   stack:
+  //     'Tech Stack: React.js, Next.js, shadcn/ui, Firebase, Auth0, Gemini API',
+  //   link: 'https://github.com/Ankit-Rattan/sukoon-next',
+  //   cta: 'Github Repository',
+  // },
+  // {
+  //   title: 'CBC',
+  //   subtitle: 'MERN + Socket.io Project',
+  //   description:
+  //     'CBC: Create By Creators is a platform that combines two cutting-edge scopes: creator economy + real-time interaction.',
+  //   stack: 'Tech Stack: ReactJS, Socket.io, MongoDB, Express, TailwindCSS',
+  //   link: 'https://devpost.com/software/cbc-p2gweu',
+  //   cta: 'Devpost Hackathon Submission',
+  // },
+  // {
+  //   title: 'ThoughtBox',
+  //   subtitle: 'MERN + Socket Chat App',
+  //   description:
+  //     'An open chat app for sharing knowledge & thoughts. Users can post, comment, and connect in real-time.',
+  //   stack:
+  //     'Tech Stack: Vite+React, Tailwind CSS, MongoAtlas, Express, Node, Socket.io',
+  //   link: 'https://github.com/Ankit-Rattan/ThoughtBox---OpenChat',
+  //   cta: 'Github Repository',
+  // },
+  // {
+  //   title: 'Upvision - Tech Club of NIT Delhi',
+  //   subtitle: 'Official Technical Club Website',
+  //   description:
+  //     'Upvision is the official website of NIT Delhi’s Tech Club. Hosted on the NIT Delhi domain.',
+  //   stack: 'Tech Stack: ReactJS, TailwindCSS',
+  //   link: 'https://upvisionnitdelhi.netlify.app/',
+  //   cta: 'Website Link',
+  // },
+  
   {
-    title: 'SUKOON',
-    subtitle: 'Addressing the growing mental health crisis in India',
+    title: 'Akriti.ai',
+    subtitle: 'AI-Powered Real-Time Code Generation Platform',
     description:
-      'A mental wellness platform designed to make mental health support accessible, private, and personalized. Team ApexCoders @HackCBS 7.0 + IIIT Delhi Top-50.',
+      'Developed an AI-powered real-time code generation and editing platform with contextual memory. Integrated Monaco Editor and tldraw for live code preview and interactive UI collaboration. Enabled context-aware AI refinement for continuous code iteration. Ranked Top 10 at MLH HackCBS 8.0 and won 2nd Best AI Integration.',
     stack:
-      'Tech Stack: React.js, Next.js, shadcn/ui, Firebase, Auth0, Gemini API',
-    link: 'https://github.com/Ankit-Rattan/sukoon-next',
+      'Tech Stack: React.js, Next.js, Monaco Editor, tldraw, Gemini API, Tailwind CSS',
+    link: 'https://github.com/Ankit-Rattan/Akriti.ai', 
     cta: 'Github Repository',
   },
   {
-    title: 'CBC',
-    subtitle: 'MERN + Socket.io Project',
+    title: 'SUKOON',
+    subtitle: 'AI-Powered Mental Wellness Platform',
     description:
-      'CBC: Create By Creators is a platform that combines two cutting-edge scopes: creator economy + real-time interaction.',
-    stack: 'Tech Stack: ReactJS, Socket.io, MongoDB, Express, TailwindCSS',
-    link: 'https://devpost.com/software/cbc-p2gweu',
-    cta: 'Devpost Hackathon Submission',
-  },
-  {
-    title: 'ThoughtBox',
-    subtitle: 'MERN + Socket Chat App',
-    description:
-      'An open chat app for sharing knowledge & thoughts. Users can post, comment, and connect in real-time.',
+      'Built a mental wellness platform featuring real-time chat, AI-based mental health assessments, and secure authentication. Integrated Firebase and Auth0 for scalable backend services and implemented an AI-driven evaluation system using facial data inputs. Ranked Top 50 at the IIIT Delhi National Hackathon.',
     stack:
-      'Tech Stack: Vite+React, Tailwind CSS, MongoAtlas, Express, Node, Socket.io',
-    link: 'https://github.com/Ankit-Rattan/ThoughtBox---OpenChat',
+      'Tech Stack: React.js, Next.js, Firebase, Auth0, Gemini API, Tailwind CSS',
+    link: 'https://github.com/Ankit-Rattan/sukoon-next',
     cta: 'Github Repository',
   },
   {
     title: 'Upvision - Tech Club of NIT Delhi',
     subtitle: 'Official Technical Club Website',
     description:
-      'Upvision is the official website of NIT Delhi’s Tech Club. Hosted on the NIT Delhi domain.',
-    stack: 'Tech Stack: ReactJS, TailwindCSS',
+      'Developed and maintained the official website of NIT Delhi’s Technical Club, delivering a responsive and modern interface for events, community initiatives, and technical activities.',
+    stack: 'Tech Stack: React.js, Tailwind CSS',
     link: 'https://upvisionnitdelhi.netlify.app/',
     cta: 'Website Link',
   },
+
 ];
 
 const Project = () => {

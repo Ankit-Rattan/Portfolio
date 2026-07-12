@@ -4,12 +4,13 @@ import { motion } from 'framer-motion';
 
 const links = [
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ankit-rattan-3a34b724a/' },
-  { label: 'LeetCode', href: 'https://leetcode.com/rattanankit2004/', subtitle: '650+ Ques' },
+  { label: 'LeetCode', href: 'https://leetcode.com/rattanankit2004/' },
   { label: 'GitHub', href: 'https://github.com/Ankit-Rattan' },
   { label: 'Devpost', href: 'https://devpost.com/rattanankit2004?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav' },
   { label: 'Medium', href: 'https://medium.com/@rattan0209' },
   { label: 'Quora', href: 'https://www.quora.com/profile/Ankit-Rattan-5' },
-  { label: 'Twitter', href: 'https://twitter.com/AnkitRattan02' },
+  { label: 'Dev.to', href: 'https://dev.to/ankit_rattan' },
+  { label: 'Devfolio', href: 'https://devfolio.co/@AnkitRattan'}
 ];
 
 const Connect = () => {

@@ -3,31 +3,69 @@ import { motion } from 'framer-motion';
 import { Briefcase, MapPin, Clock } from 'lucide-react';
 
 const experiences = [
+  // {
+  //   org: 'CabEasy',
+  //   role: 'Web Developer Intern',
+  //   type: 'Internship • Remote',
+  //   period: 'Jun 2024 – Feb 2025 • 9 mos',
+  //   location: 'Delhi, India',
+  //   description:
+  //     'Developed and maintained front-end features using React.js and TailwindCSS and Firebasse. Integrated new unique flows and features and improved user experience.',
+  // }, 
+  // {
+  //   org: 'Social (Formerly Script Foundation)',
+  //   role: 'Contributor',
+  //   type: 'Part-time • Remote',
+  //   period: 'Jun 2023 – Aug 2023 • 3 mos',
+  //   description:
+  //     'Contributed to open-source repositories and collaborated with developers to build accessible tools and documentation.',
+  // },
+  // {
+  //   org: 'Microsoft',
+  //   role: 'Microsoft Learn Student Ambassador (Alpha → Beta)',
+  //   type: 'Full-time • Remote',
+  //   period: 'Sep 2023 – Jan 2025 • 1 yr 5 mos',
+  //   description:
+  //     'Contributed as an Alpha and then promoted to Beta MLSA, working on community engagement, technical workshops, and student outreach.',
+  // },
+  
   {
-    org: 'CabEasy',
-    role: 'Web Developer Intern',
-    type: 'Internship • Remote',
-    period: 'Jun 2024 – Feb 2025 • 9 mos',
-    location: 'Delhi, India',
+    org: 'The D. E. Shaw Group',
+    role: 'Member Tech',
+    type: 'Full-time • On-site',
+    period: 'Jun 2026 – Present • 2 mos',
+    location: 'Bengaluru, Karnataka, India',
     description:
-      'Developed and maintained front-end features using React.js and TailwindCSS and Firebasse. Integrated new unique flows and features and improved user experience.',
-  }, 
+      'Working as a Member Tech, contributing to engineering initiatives, building scalable solutions, and collaborating across teams to develop high-impact technology products.',
+  },
   {
-    org: 'Social (Formerly Script Foundation)',
-    role: 'Contributor',
-    type: 'Part-time • Remote',
-    period: 'Jun 2023 – Aug 2023 • 3 mos',
+    org: 'Jubilant FoodWorks Ltd.',
+    role: 'DS (A&I Team)',
+    type: 'Internship • On-site',
+    period: 'Jan 2026 – May 2026',
+    location: 'Noida, India',
     description:
-      'Contributed to open-source repositories and collaborated with developers to build accessible tools and documentation.',
+      'Developed an automation framework that reduced manual reporting effort by 95%, improving operational efficiency and reporting accuracy. Designed and developed MCP services to enable efficient data analysis, workflow automation, and AI-powered reporting solutions.',
   },
   {
     org: 'Microsoft',
-    role: 'Microsoft Learn Student Ambassador (Alpha → Beta)',
-    type: 'Full-time • Remote',
-    period: 'Sep 2023 – Jan 2025 • 1 yr 5 mos',
+    role: 'Software Engineer Intern',
+    type: 'Internship • On-site',
+    period: 'Jun 2025 – Aug 2025',
+    location: 'Hyderabad, India',
     description:
-      'Contributed as an Alpha and then promoted to Beta MLSA, working on community engagement, technical workshops, and student outreach.',
+      'Worked with the Azure Core Team (Cloud & AI), contributing to cloud infrastructure and platform engineering using Azure, C#, and modern software development practices.',
   },
+  {
+    org: 'CabEasy',
+    role: 'SDE Intern',
+    type: 'Internship • Remote',
+    period: 'Jun 2024 – Feb 2025',
+    location: 'Remote',
+    description:
+      'Developed and maintained responsive web applications using React.js, Tailwind CSS, Firebase, and Cloud Firestore. Built new user-facing features, optimized existing workflows, and improved overall application performance and user experience.',
+  },
+
 ];
 
 const Exp = () => {
